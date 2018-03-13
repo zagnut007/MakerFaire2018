@@ -45,7 +45,7 @@ Front Side | Back Side
 ---------- | ---------
 ![Badge Front](https://raw.githubusercontent.com/zagnut007/MakerFaire2018/master/assets/front.jpg) | ![Badge Back](https://raw.githubusercontent.com/zagnut007/MakerFaire2018/master/assets/back.jpg)
 
-## Tips for Building Y0our Badge
+## Tips for Building Your Badge
 
 Please read and review before starting your build.
 
