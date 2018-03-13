@@ -42,7 +42,7 @@ static const unsigned char PROGMEM sprite_resistor_bmp[] =
  B11111111,B11111111,
  B00011111,B11110000,
  B00001111,B11100000,
- B00000000,000000000};
+ B00000000,B00000000};
 
 // 8x8 nut sprite
 static const unsigned char PROGMEM sprite_nut_bmp[] =
