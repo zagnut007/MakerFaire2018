@@ -37,9 +37,37 @@ help will be easy.
 - Flush cut wire cutters and/or wire stripper
 - Micro USB cable
 - Computer with the Arduino IDE loaded
+- (optional) Blue tack to help hold pieces while soldering
 
 ## Completed Example Badge
 
 Front Side | Back Side
 ---------- | ---------
 ![Badge Front](https://raw.githubusercontent.com/zagnut007/MakerFaire2018/master/assets/front.jpg) | ![Badge Back](https://raw.githubusercontent.com/zagnut007/MakerFaire2018/master/assets/back.jpg)
+
+## Tips for Building Y0our Badge
+
+Please read and review before starting your build.
+
+### Step 1: Attach the LED, speaker, resistors and switches
+  - Pay attention to the positive and negative leads on the LED and speaker components
+  - On the LED, the longer lead is positive, the shorter lead negative
+  - The leads on the speaker will need to be bent in order to match up to the holes
+  - The resistors can be mounted in either direction
+  - The switches should mount with the pins exited the left and right sides
+
+### Step 2: Attach the OLED and Arduino
+  - Use blue tack or helping hands to help mount the included header pins
+  - The longer side of the pins should go through the PCB. These can be soldered to on the reverse side for expansion
+  - Once the headers have been soldered, you can solder on the OLED and Arduino
+  - The OLED screen will "float" above the PCB. You can use some hot glue under the OLED to help secure it if needed
+
+### Step 3: Attach battery pack
+  - Use hot glue to mount the battery pack with the switch facing out.
+  - Trim the red and black leads
+  - Your red lead will be positive, the black lead is negative
+
+### Step 4: Attach top piece and lanyard
+  - Use the supplied bolts and nuts to secure the top piece
+  - Be sure to remove any backing paper from the top piece
+  - Attach the lanyard and we'll see you at the Faire!
