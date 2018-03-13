@@ -120,7 +120,7 @@ void splash_loop(){
 
       rightButtonState = digitalRead(BUTTON_RIGHT);
       if(rightButtonState == HIGH){
-        billieJean();
+        playRiff();
       }
     }
   }
@@ -315,7 +315,7 @@ void switch_program(){
   }
 }
 
-void billieJean(){
+void playRiff(){
   beep(NOTE_FS4, 500);
   beep(NOTE_CS4, 500);
   beep(NOTE_E4, 500);
