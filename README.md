@@ -37,3 +37,9 @@ help will be easy.
 - Flush cut wire cutters and/or wire stripper
 - Micro USB cable
 - Computer with the Arduino IDE loaded
+
+## Completed Example Badge
+
+Front Side | Back Side
+---------- | ---------
+![Badge Front](https://raw.githubusercontent.com/zagnut007/MakerFaire2018/master/assets/front.jpg) | ![Badge Back](https://raw.githubusercontent.com/zagnut007/MakerFaire2018/master/assets/back.jpg)
