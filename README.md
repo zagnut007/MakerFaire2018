@@ -71,3 +71,19 @@ Please read and review before starting your build.
   - Use the supplied bolts and nuts to secure the top piece
   - Be sure to remove any backing paper from the top piece
   - Attach the lanyard and we'll see you at the Faire!
+
+## Badge Customization
+
+There are lots of pins available for customization of your badge. You can tap into the VCC and GND pins even if they are in use for most applications
+
+### Pins not in use on the PCB
+  - TX0
+  - RX1
+  - 2
+  - 4/A6
+  - 5
+  - 8/A8
+  - 9/A9
+  - 19/A1
+  - 20/A2
+  - 21/A3
