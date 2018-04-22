@@ -13,6 +13,9 @@ change the program, add more components, etc.
 ### Contents
  - [Components](#components)
  - [What you'll need](#needs)
+ - [Build Notes](#build)
+ - [Compiling Notes](#compile)
+ - [Customization](#custom)
 
 ## <a name="components"></a>Components
 
@@ -43,7 +46,7 @@ help will be easy.
 - Computer with the Arduino IDE loaded
 - (optional) Blue tack to help hold pieces while soldering
 
-## Completed Example Badge
+## <a name="build"></a>Completed Example Badge
 
 Front Side | Back Side
 ---------- | ---------
@@ -76,7 +79,47 @@ Please read and review before starting your build.
   - Be sure to remove any backing paper from the top piece
   - Attach the lanyard and we'll see you at the Faire!
 
-## Badge Customization
+## <a name="compile"></a>Compiling the Code
+
+### Step 1: Install required libraries
+
+There are two libraries required to make the LCD work. You'll need to download each and stores them in your Arduino library so the compiler can find them when you compile the code.
+
+  - Download: https://github.com/adafruit/Adafruit-GFX-Library
+  - Click the green button for "Clone or download" and choose "Download ZIP"
+  - Once you extract the ZIP file, you'll want to place the entire unzipped folder in your "libraries" folder which is in your Sketchbook location
+  - In the Arduino IDE, you can find your Sketchbook location by going to File -> Preferences (on Windows) or Arduino -> Preferences (on Mac)
+  - Follow these same steps for: https://github.com/adafruit/Adafruit_SSD1306
+
+### Step 2: Define correct LCD in SSD1306 library
+
+  - Open the file "Adafruit_SSD1306.h" in the SSD1306 library folder you just placed
+  - Pro tip: On Windows, use Wordpad and turn on word wrap, on Mac, open the file with TextEdit
+  - You want to make sure the line #define SSD1306_128_64 is uncommented and the other two options are commented (that means they have the two forward slashes in front)
+  - Looks like (around line 64/65):
+
+  <code>
+     #define SSD1306_128_64
+//   #define SSD1306_128_32
+//   #define SSD1306_96_16
+  </code>
+
+  - This is because the 128x64 LCD is the one included in the kit
+  - Save the file
+
+### Step 3: Download this source code
+
+  - Just like the two libraries before, click the green button and select "Download ZIP"
+  - Once extracted, you can move the "badgeCode" folder to your Sketchbook folder 
+
+### Step 4: Modify your name and compile
+
+  - On line 41, change the definition of "MYNAME" to your own name
+  - Under Tools -> Board, select "Genuino Micro"
+  - Under Tools -> Port, select the USB/Serial port that shows up when you plug in the Arduino
+  - Click the Checkmark to compile, click the Right arrow button to upload your code to your Arduino
+
+## <a name="custom"></a>Badge Customization
 
 There are lots of pins available for customization of your badge. You can tap into the VCC and GND pins even if they are in use for most applications
 
