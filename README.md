@@ -98,11 +98,11 @@ There are two libraries required to make the LCD work. You'll need to download e
   - You want to make sure the line #define SSD1306_128_64 is uncommented and the other two options are commented (that means they have the two forward slashes in front)
   - Looks like (around line 64/65):
 
-  <code>
+```
      #define SSD1306_128_64
 //   #define SSD1306_128_32
 //   #define SSD1306_96_16
-  </code>
+```
 
   - This is because the 128x64 LCD is the one included in the kit
   - Save the file
