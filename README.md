@@ -10,7 +10,11 @@ Be creative! The components chosen for this design were picked with the intentio
 that you would want to customize your badge to make it your own. Paint it, stain it, 
 change the program, add more components, etc. 
 
-## Components
+### Contents
+ - [Components](#components)
+ - [What you'll need](#needs)
+
+## <a name="components"></a>Components
 
 The following components are included in the 2018 VIP Badge Kit:
 
@@ -26,7 +30,7 @@ The following components are included in the 2018 VIP Badge Kit:
 - Bots and nuts (qty. 2)
 - Neck lanyard
 
-## What you'll need
+## <a name="needs"></a>What you'll need
 
 Gather these tools before starting on your build and it will go much smoother! With
 the custom designed PCB, there's less wires to get in the way and hooking everything
